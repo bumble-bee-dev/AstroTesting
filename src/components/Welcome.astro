@@ -1,4 +1,5 @@
 ---
+import astroLogo from 'astro.svg';
 import background from '../assets/background.svg';
 ---
 
@@ -7,7 +8,7 @@ import background from '../assets/background.svg';
 	<main>
 		<section id="hero">
 			<a href="https://astro.build"
-				><img src="/src/assets/astro.svg" width="115" height="48" alt="Astro Homepage" /></a
+				><img src={astroLogo.src} width="115" height="48" alt="Astro Homepage" /></a
 			>
 			<h1>THIS IS SOME TEST TEXT</h1>
 			<h1>
