@@ -4,7 +4,5 @@ import { defineConfig } from 'astro/config';
 // https://astro.build/config
 export default defineConfig({
     site: 'https://bumble-bee-dev.github.io',
-    build: {
-        assets: 'assets/',
-    }
+    base: "/AstroTesting/",
 })
